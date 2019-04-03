@@ -1,0 +1,23 @@
+.color-picker {
+    display: block;
+  
+    text-align: center;
+}
+
+.color-picker div {
+    width: 23px;
+    height: 23px;
+   
+    border-radius: 12px;
+    margin: 0px 0px 22px 8px;
+    
+    cursor: pointer;
+}
+
+.color-picker div:hover {
+    border: 1px solid #444;
+}
+
+.color-picker div.selected {
+    box-shadow: #666 0 0 4px 2px;
+}
